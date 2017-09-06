@@ -1,0 +1,106 @@
+/*************************************************
+******************* MAIN CSS *********************
+*************************************************/
+
+
+/*********************** Base style */
+
+body {
+    background-color: #42c5f4;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#biography {
+    background-color: #2982CA;
+}
+
+
+/*********************** Basic headings style */
+
+h1,
+h2,
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    color: #00f;
+    font-weight: normal;
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-variant: small-caps;
+}
+
+
+/*********************** Background color of paragraphs */
+
+p {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+p.red {
+    background-color: red;
+}
+
+p.green {
+    background-color: green;
+}
+
+p.blue {
+    background-color: blue;
+}
+
+
+/*********************** Anchors */
+
+p.green a,
+p.red a {
+    color: white;
+}
+
+p.blue a {
+    color: yellow;
+}
+
+a {
+    font-weight: bold;
+    color: #ff0000;
+    text-decoration: none;
+}
+
+body section div#biography a {
+    text-decoration: none;
+}
+
+body section div#biography a:hover {
+    text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+    color: #8b0000;
+    text-decoration: underline;
+}
+
+
+/*********************** Changing colors of seen/unseen */
+
+li.seen {
+    color: silver;
+}
+
+li.unseen {
+    color: #560909;
+}
+
+p .seen.bad {
+    color: silver;
+}
+
+p .seen.good {
+    color: #23C609;
+}
