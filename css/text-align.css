@@ -1,0 +1,33 @@
+.first {
+    text-align: left;
+}
+
+.second {
+    text-align: right;
+}
+
+.third {
+    text-align: justify;
+}
+
+.pagination {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination a   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 3em;
+    height: 3em;
+    background-color: blue;
+    color: white;
+    margin: 0 0.5em;
+    
+}
+
+
+
