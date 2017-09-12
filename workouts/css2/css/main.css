@@ -1,0 +1,42 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile {
+    display: flex;
+}
+
+.photo {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    width: 6em;
+    flex: auto;
+}
+
+.list img {
+    width: 2em;
+    float: left;
+    margin-right: 1em;
+}
+
+.info {
+    flex: auto;
+}
+
+span {
+    font-weight: bold;
+}
+
+span.in-relationship {
+    color: red;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.list {
+    line-height: 2em;
+    list-style-type: none;
+}
